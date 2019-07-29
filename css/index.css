@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.from{
+    margin-left: -18%;
+    border-left: 1px solid #C4C4C4;
+    height: 100px;
+}
+a{
+    text-decoration: none !important;
+    color: #636363;
+}
+.create{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+    text-transform: uppercase;
+    
+    color: #636363;
+    
+}
+.waw{
+    background-color: #CE4343;
+}
+.p1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.88px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+/* Mobile */
+@media screen and (max-width: 600px) {
+    .from{
+        margin-left: 4%;
+        margin-top: 12px;
+        border-left: 1px solid #C4C4C4;
+        height: 100px;
+    }
+    .movee{
+        margin-left: 10px;
+    }
+    .move1{
+        margin-left: -9px !important;
+    }
+    .p1{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8.5px;
+        line-height: 15px;
+        text-transform: uppercase;
+        /* letter-spacing: 0.88px; */
+        text-align: justify;
+        color: #FFFFFF;
+    }
+}
